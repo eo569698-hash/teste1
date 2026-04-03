@@ -298,7 +298,7 @@ button {
     inset: 0;
     background:
         linear-gradient(90deg, rgba(11, 8, 6, 0.84) 0%, rgba(11, 8, 6, 0.68) 44%, rgba(11, 8, 6, 0.52) 100%),
-        url("../imagegen/hero-principal.png") center/cover no-repeat;
+        url("hero-principal.png") center/cover no-repeat;
     transform: scale(1.03);
 }
 
