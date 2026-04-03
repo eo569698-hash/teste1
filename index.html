@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eduardo Tattoo Studio</title>
+    <meta name="description" content="Landing page estatica para estudio de tatuagem e piercing, pronta para GitHub Pages.">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagegen/favicon-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteudo</a>
+
+    <header class="site-header" data-header>
+        <div class="container site-header__inner">
+            <a class="brand" href="#home" aria-label="Voltar para o inicio">
+                <img class="brand__logo" src="imagegen/logo-principal.jpeg" alt="Logo do estudio Eduardo Tattoo Studio">
+                <div class="brand__text">
+                    <strong>Eduardo</strong>
+                    <span>Tattoo Studio</span>
+                </div>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" data-menu-toggle>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="sr-only">Abrir menu</span>
+            </button>
+
+            <nav class="site-nav" id="menu-principal" data-menu>
+                <a href="#sobre-nos">Sobre</a>
+                <a href="#servicos">Servicos</a>
+                <a href="#tatuadores">Equipe</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#orcamento">Orcamento</a>
+                <a href="#endereco">Endereco</a>
+                <a href="#contatos">Contatos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero" id="home">
+            <div class="hero__backdrop"></div>
+            <div class="container hero__inner">
+                <div class="hero__content reveal">
+                    <p class="eyebrow">Desde 1997 eternizando historias na pele</p>
+                    <h1>Se faz sentir, faz sentido.</h1>
+                    <p class="hero__lead">
+                        Um estudio com visual forte, atendimento proximo e uma experiencia pensada para transformar ideia em arte com seguranca.
+                    </p>
+                    <div class="hero__actions">
+                        <a class="button button--primary" href="https://wa.me/5511986019047?text=Ola%2C%20vim%20pelo%20site%20e%20quero%20agendar%20uma%20consultoria." target="_blank" rel="noopener">
+                            Agendar consultoria
+                        </a>
+                        <a class="button button--ghost" href="#galeria">Ver galeria</a>
+                    </div>
+                </div>
+
+                <aside class="hero__panel reveal" aria-label="Informacoes do estudio">
+                    <div class="hero-card">
+                        <span class="hero-card__label">Atendimento</span>
+                        <strong>Terca a sabado</strong>
+                        <p>10h as 18h, com alinhamento rapido pelo WhatsApp.</p>
+                    </div>
+                    <div class="hero-card">
+                        <span class="hero-card__label">Especialidades</span>
+                        <strong>Tatuagem, piercing e joias</strong>
+                        <p>Projetos autorais, atendimento guiado e acompanhamento do primeiro contato ao pos-procedimento.</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section section--about" id="sobre-nos">
+            <div class="container about">
+                <div class="about__content reveal">
+                    <p class="eyebrow">Prepare-se para o inesperado</p>
+                    <h2>Arte que marca. Estilo que representa voce.</h2>
+                    <p>
+                        Transformamos ideias em tatuagens unicas, com foco em qualidade, seguranca e atendimento personalizado.
+                        Esta versao foi reconstruida em HTML, CSS e JavaScript puro para funcionar direto no GitHub Pages.
+                    </p>
+                    <p>
+                        O objetivo aqui e manter a energia visual do projeto original, mas com uma base muito mais limpa,
+                        rapida e facil de editar.
+                    </p>
+                    <img class="about__signature" src="imagegen/brand-signature.png" alt="Assinatura grafica da marca">
+                </div>
+
+                <div class="about__visual reveal">
+                    <div class="about__frame">
+                        <img src="imagegen/about-studio.png" alt="Ilustracao do estudio">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--services" id="servicos">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">O que acontece aqui</p>
+                    <h2>Uma estrutura simples, clara e pronta para conversao.</h2>
+                </div>
+
+                <div class="service-grid">
+                    <article class="service-card reveal">
+                        <span class="service-card__index">01</span>
+                        <h3>Tatuagem</h3>
+                        <p>Projetos personalizados, leitura de ideia e direcionamento do melhor caminho para o desenho final.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <span class="service-card__index">02</span>
+                        <h3>Piercing</h3>
+                        <p>Atendimento com orientacao, organizacao do processo e foco em seguranca desde a primeira conversa.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <span class="service-card__index">03</span>
+                        <h3>Joias</h3>
+                        <p>Selecao de pecas para complementar o procedimento e valorizar o estilo de cada cliente.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--team" id="tatuadores">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Conheca a equipe</p>
+                    <h2>Um time em destaque, sem carrossel e sem dependencia de plugin.</h2>
+                    <p>
+                        A versao anterior usava placeholders e widgets prontos. Aqui a equipe entra em um grid responsivo, com imagens reais reaproveitadas do export antigo.
+                    </p>
+                </div>
+
+                <div class="team-grid">
+                    <article class="team-card reveal">
+                        <img src="imagegen/artist-1.jpeg" alt="Artista do estudio em destaque">
+                        <div class="team-card__content">
+                            <h3>Artista 01</h3>
+                            <p>Traco autoral e atendimento consultivo para transformar referencia em proposta viavel.</p>
+                        </div>
+                    </article>
+                    <article class="team-card reveal">
+                        <img src="imagegen/artist-2.jpeg" alt="Profissional da equipe">
+                        <div class="team-card__content">
+                            <h3>Artista 02</h3>
+                            <p>Projetos de composicao, leitura de area e apoio no planejamento do desenho.</p>
+                        </div>
+                    </article>
+                    <article class="team-card reveal">
+                        <img src="imagegen/artist-3.jpeg" alt="Profissional da equipe">
+                        <div class="team-card__content">
+                            <h3>Artista 03</h3>
+                            <p>Olhar tecnico e experiencia para orientar tamanho, contraste e adaptacao do projeto.</p>
+                        </div>
+                    </article>
+                    <article class="team-card reveal">
+                        <img src="imagegen/artist-4.jpeg" alt="Profissional da equipe">
+                        <div class="team-card__content">
+                            <h3>Artista 04</h3>
+                            <p>Execucao cuidadosa, conversa objetiva e processo pensado para reduzir atrito na decisao.</p>
+                        </div>
+                    </article>
+                    <article class="team-card reveal">
+                        <img src="imagegen/artist-5.jpeg" alt="Profissional da equipe">
+                        <div class="team-card__content">
+                            <h3>Artista 05</h3>
+                            <p>Fechamento de briefing, alinhamento de agenda e atencao especial ao acabamento do trabalho.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--gallery" id="galeria">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Galeria visual</p>
+                    <h2>Uma grade leve com lightbox proprio em JavaScript puro.</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <button class="gallery-item reveal" type="button" data-lightbox-src="imagegen/gallery-01.jpg" data-lightbox-caption="Projeto em destaque 01">
+                        <img src="imagegen/gallery-01.jpg" alt="Tatuagem da galeria 01" loading="lazy">
+                    </button>
+                    <button class="gallery-item reveal" type="button" data-lightbox-src="imagegen/gallery-02.jpg" data-lightbox-caption="Projeto em destaque 02">
+                        <img src="imagegen/gallery-02.jpg" alt="Tatuagem da galeria 02" loading="lazy">
+                    </button>
+                    <button class="gallery-item reveal" type="button" data-lightbox-src="imagegen/gallery-03.jpg" data-lightbox-caption="Projeto em destaque 03">
+                        <img src="imagegen/gallery-03.jpg" alt="Tatuagem da galeria 03" loading="lazy">
+                    </button>
+                    <button class="gallery-item reveal" type="button" data-lightbox-src="imagegen/gallery-04.jpg" data-lightbox-caption="Projeto em destaque 04">
+                        <img src="imagegen/gallery-04.jpg" alt="Tatuagem da galeria 04" loading="lazy">
+                    </button>
+                    <button class="gallery-item reveal" type="button" data-lightbox-src="imagegen/gallery-05.jpg" data-lightbox-caption="Projeto em destaque 05">
+                        <img src="imagegen/gallery-05.jpg" alt="Tatuagem da galeria 05" loading="lazy">
+                    </button>
+                    <button class="gallery-item reveal" type="button" data-lightbox-src="imagegen/gallery-06.jpg" data-lightbox-caption="Projeto em destaque 06">
+                        <img src="imagegen/gallery-06.jpg" alt="Tatuagem da galeria 06" loading="lazy">
+                    </button>
+                    <button class="gallery-item reveal" type="button" data-lightbox-src="imagegen/gallery-07.jpg" data-lightbox-caption="Projeto em destaque 07">
+                        <img src="imagegen/gallery-07.jpg" alt="Tatuagem da galeria 07" loading="lazy">
+                    </button>
+                    <button class="gallery-item reveal" type="button" data-lightbox-src="imagegen/gallery-08.jpg" data-lightbox-caption="Projeto em destaque 08">
+                        <img src="imagegen/gallery-08.jpg" alt="Tatuagem da galeria 08" loading="lazy">
+                    </button>
+                </div>
+
+                <div class="gallery-cta reveal">
+                    <a class="button button--ghost" href="https://www.instagram.com/hagmenom_zo/" target="_blank" rel="noopener">
+                        Visitar Instagram
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--budget" id="orcamento">
+            <div class="container budget">
+                <div class="budget__content reveal">
+                    <p class="eyebrow">Como faco meu orcamento?</p>
+                    <h2>Formulario estatico com envio assinado por servico externo.</h2>
+                    <p>
+                        Como GitHub Pages nao executa backend, o envio continua funcional usando o FormSubmit,
+                        agora com JavaScript proprio e mensagens de retorno mais claras.
+                    </p>
+                    <ul class="budget-list">
+                        <li>Atendimento pelo WhatsApp de terca a sabado, das 10h as 18h.</li>
+                        <li>Coleta de nome, e-mail, WhatsApp, tipo de servico e detalhes do pedido.</li>
+                        <li>Resposta com direcionamento para alinhamento de agenda.</li>
+                    </ul>
+                </div>
+
+                <form class="form-card js-ajax-form reveal" method="post" action="https://formsubmit.co/greemverde6@gmail.com" data-ajax-endpoint="https://formsubmit.co/ajax/greemverde6@gmail.com" data-success-message="Recebemos seu pedido. A equipe vai analisar e responder pelo WhatsApp." data-activation-message="O FormSubmit pode precisar de ativacao no primeiro envio. Verifique a caixa de entrada do e-mail configurado." data-error-message="Nao foi possivel enviar agora. Tente novamente em alguns instantes." accept-charset="UTF-8">
+                    <input type="hidden" name="_subject" value="Novo pedido de orcamento - Eduardo Tattoo Studio">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="form-honeypot">
+
+                    <div class="field-row">
+                        <label>
+                            <span>Nome</span>
+                            <input type="text" name="nome" placeholder="Seu nome">
+                        </label>
+                        <label>
+                            <span>E-mail</span>
+                            <input type="email" name="email" placeholder="voce@email.com" required>
+                        </label>
+                    </div>
+
+                    <div class="field-row">
+                        <label>
+                            <span>WhatsApp</span>
+                            <input type="tel" name="telefone_whatsapp" placeholder="(11) 90000-0000" required>
+                        </label>
+                        <label>
+                            <span>Tipo de servico</span>
+                            <select name="tipo_servico" required>
+                                <option value="">Escolha uma opcao</option>
+                                <option value="Tatuagem">Tatuagem</option>
+                                <option value="Piercing">Piercing</option>
+                                <option value="Joias">Joias</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <label>
+                        <span>Informacoes adicionais</span>
+                        <textarea name="informacoes_adicionais" rows="5" placeholder="Conte a ideia, tamanho, regiao do corpo ou qualquer referencia importante." required></textarea>
+                    </label>
+
+                    <button class="button button--primary button--full" type="submit">
+                        <span class="button-text">Solicitar orcamento</span>
+                    </button>
+
+                    <p class="form-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <section class="section section--contact" id="endereco">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Atendimento e localizacao</p>
+                    <h2>Sem plugin, sem widget: so a informacao que importa.</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <article class="contact-card reveal">
+                        <h3>Telefones</h3>
+                        <p>Fixo: (11) 98601-9047</p>
+                        <p>WhatsApp: (11) 98601-9047</p>
+                    </article>
+                    <article class="contact-card reveal">
+                        <h3>Horarios</h3>
+                        <p>Terca a sabado: 10:00 - 18:00</p>
+                        <p>Domingo e segunda: fechado</p>
+                    </article>
+                    <article class="contact-card reveal" id="contatos">
+                        <h3>Endereco</h3>
+                        <p>Consulte a localizacao atual e o envio do mapa diretamente pelo WhatsApp antes da visita.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--newsletter">
+            <div class="container newsletter reveal">
+                <div class="newsletter__content">
+                    <p class="eyebrow">Quer participar de eventos exclusivos?</p>
+                    <h2>Receba novidades do estudio por e-mail.</h2>
+                </div>
+
+                <form class="newsletter__form js-ajax-form" method="post" action="https://formsubmit.co/greemverde6@gmail.com" data-ajax-endpoint="https://formsubmit.co/ajax/greemverde6@gmail.com" data-success-message="Seu e-mail foi enviado com sucesso. Em breve entraremos em contato." data-activation-message="O FormSubmit pode pedir confirmacao no primeiro envio. Verifique a caixa de entrada do e-mail configurado." data-error-message="Nao foi possivel enviar agora. Tente novamente em alguns instantes." accept-charset="UTF-8">
+                    <input type="hidden" name="_subject" value="Novo cadastro de newsletter - Eduardo Tattoo Studio">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="form-honeypot">
+                    <label class="newsletter__field">
+                        <span class="sr-only">Informe seu e-mail</span>
+                        <input type="email" name="email" placeholder="Informe seu e-mail" required>
+                    </label>
+                    <button class="button button--primary" type="submit">
+                        <span class="button-text">Enviar</span>
+                    </button>
+                    <p class="form-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <div class="site-footer__brand">
+                <img src="imagegen/logo-principal.jpeg" alt="Marca do estudio no rodape">
+                <p>Desde 1997, transformando desejos em arte corporal com excelencia e cuidado.</p>
+            </div>
+
+            <div class="site-footer__links">
+                <a href="https://wa.me/5511986019047" target="_blank" rel="noopener">WhatsApp</a>
+                <a href="https://www.instagram.com/hagmenom_zo/" target="_blank" rel="noopener">Instagram</a>
+                <a href="#sobre-nos">Sobre</a>
+                <a href="#orcamento">Orcamento</a>
+            </div>
+        </div>
+    </footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/5511986019047?text=Ola%2C%20vim%20atraves%20do%20site%20de%20voces." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+        WhatsApp
+    </a>
+
+    <button class="back-to-top" type="button" aria-label="Voltar ao topo" data-back-to-top>Topo</button>
+
+    <div class="lightbox" hidden data-lightbox>
+        <button class="lightbox__close" type="button" aria-label="Fechar imagem" data-lightbox-close>Fechar</button>
+        <figure class="lightbox__figure">
+            <img src="" alt="" data-lightbox-image>
+            <figcaption data-lightbox-caption></figcaption>
+        </figure>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
